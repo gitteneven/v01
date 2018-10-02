@@ -1609,6 +1609,10 @@ body {
 .cid-r4LDQLBJWg .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-r4LDQLBJWg .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-r4LDQLBJWg .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-r4LDQLBJWg .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-r4LDQLBJWg .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1704,6 +1708,10 @@ body {
   .cid-r4LDQLBJWg .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-r4LDQLBJWg .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-r4LDQLBJWg .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-r4LDQLBJWg .navbar-collapse.collapsing .navbar-buttons,
   .cid-r4LDQLBJWg .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1769,37 +1777,6 @@ body {
 .cid-r4LDP6sgjV {
   background-image: url("../../../assets/images/diepe-zee-overgang-2000x1333.jpg");
 }
-.cid-r4LDVT3INP {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-r4LDVT3INP .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-r4LDXvjtRE {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-r4LDXvjtRE .line {
-  background-color: #149dcc;
-  color: #149dcc;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-r4LDXvjtRE .section-text {
-  padding: 2rem 0;
-}
-.cid-r4LDXvjtRE .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-r4LDXvjtRE .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-r4LE10ChA0 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1858,38 +1835,10 @@ body {
     -webkit-flex-basis: initial !important;
   }
 }
-.cid-r4LE9dkupC {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-r4LE9dkupC .mbr-text {
-  color: #767676;
-}
-.cid-r4LE48pAaf {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
-}
-.cid-r4LE48pAaf h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-r4LE48pAaf p {
-  color: #767676;
-  text-align: left;
-}
-.cid-r4LE48pAaf .card-box {
-  padding-top: 2rem;
-}
-.cid-r4LE48pAaf .card-wrapper {
-  height: 100%;
-}
 .cid-r4LEKFX0vO {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #2e2e2e;
+  background-color: #050354;
 }
 @media (max-width: 767px) {
   .cid-r4LEKFX0vO .content {
